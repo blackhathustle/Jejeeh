@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresso</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="container-fluid">
+                <div class="header-logo">
+                    <img src="https://ingresse-static.s3.amazonaws.com/embedstore/appbar-logo.svg" alt="Ingresso" class="logo">
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <nav class="nav-steps">
+            <a href="#" class="nav-step active">Ingressos</a>
+            <a href="#" class="nav-step">Atribuição</a>
+            <a href="#" class="nav-step">Pagamento</a>
+        </nav>
+        <div class="nav-actions">
+            <a href="#" class="support-link">
+                <img src="data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8 1.33334C4.31826 1.33334 1.3335 4.3181 1.3335 8C1.3335 11.6819 4.31826 14.6667 8.00016 14.6667C11.6821 14.6667 14.6668 11.6819 14.6668 8C14.6668 4.3181 11.6821 1.33334 8.00016 1.33334ZM7.3335 4.66667C7.3335 4.29848 7.63197 4 8.00016 4C8.36835 4 8.66683 4.29848 8.66683 4.66667V7.33334H11.3335C11.7017 7.33334 12.0002 7.63182 12.0002 8C12.0002 8.36819 11.7017 8.66667 11.3335 8.66667H8.66683V11.3333C8.66683 11.7015 8.36835 12 8.00016 12C7.63197 12 7.3335 11.7015 7.3335 11.3333V8.66667H4.66683C4.29864 8.66667 4.00016 8.36819 4.00016 8C4.00016 7.63182 4.29864 7.33334 4.66683 7.33334H7.3335V4.66667Z' fill='%23637381'/%3E%3C/svg%3E" alt="Suporte">
+                Suporte
+            </a>
+            <div class="language-selector">
+                <img src="br.svg" alt="PT-BR" class="flag">
+                <span>PT</span>
+                <img src="data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4.46967 0.46967C4.76256 0.176777 5.23744 0.176777 5.53033 0.46967L9.53033 4.46967C9.82322 4.76256 9.82322 5.23744 9.53033 5.53033C9.23744 5.82322 8.76256 5.82322 8.46967 5.53033L5 2.06066L1.53033 5.53033C1.23744 5.82322 0.762563 5.82322 0.46967 5.53033C0.176777 5.23744 0.176777 4.76256 0.46967 4.46967L4.46967 0.46967Z' fill='%23454F5B'/%3E%3C/svg%3E" alt="Expandir" class="chevron">
+            </div>
+        </div>
+    </div>
+
+    <div class="event-header">
+        <div class="container">
+            <div class="event-content">
+                <div class="event-image">
+                    <img src="https://event-kraken.s3.amazonaws.com/event/posters/78047/medium.jpg" alt="CARNALOTUS 2025">
+                </div>
+                <div class="event-info">
+                    <h1>CARNALOTUS 2025 - A ESSÊNCIA QUE NOS PERTENCE</h1>
+                    <div class="event-location">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none'%3E%3Cpath d='M8.00016 1.33334C5.42016 1.33334 3.3335 3.42001 3.3335 6.00001C3.3335 9.50001 8.00016 14.6667 8.00016 14.6667C8.00016 14.6667 12.6668 9.50001 12.6668 6.00001C12.6668 3.42001 10.5802 1.33334 8.00016 1.33334ZM8.00016 7.66667C7.08016 7.66667 6.3335 6.92001 6.3335 6.00001C6.3335 5.08001 7.08016 4.33334 8.00016 4.33334C8.92016 4.33334 9.66683 5.08001 9.66683 6.00001C9.66683 6.92001 8.92016 7.66667 8.00016 7.66667Z' fill='%23637381'/%3E%3C/svg%3E" alt="Localização">
+                        Rua 48 Baixa, S/N - Ivoti
+                    </div>
+                    <div class="event-actions">
+                        <a href="#" class="event-link">Ver página do evento</a>
+                        <a href="#" class="event-link">Compartilhar</a>
+                        <button class="btn-discount" style="font-size: 7px;">
+                            <img src="liberardesconto.svg" alt="Desconto" class="discount-icon">
+                            Liberar descontos
+                        </button>
+                    </div>
+                </div>
+                <!-- <div class="purchase-details">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M19 3H14.82C14.4 1.84 13.3 1 12 1C10.7 1 9.6 1.84 9.18 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM12 3C12.55 3 13 3.45 13 4C13 4.55 12.55 5 12 5C11.45 5 11 4.55 11 4C11 3.45 11.45 3 12 3ZM14 17H7V15H14V17ZM17 13H7V11H17V13ZM17 9H7V7H17V9Z' fill='%23212B36'/%3E%3C/svg%3E" alt="Detalhes">
+                    <h2>Detalhes da compra</h2>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="tickets-section">
+        <div class="container containewr" style="display: block !important;">
+            <div class="tickets-content">
+                <div class="tickets-list">
+                    <div class="event-date">
+                        <span class="day-name">Sábado</span>
+                        <h2 class="date">08 DE MARÇO ÀS 22:00</h2>
+                    </div>
+
+                    <section id="ticket-list-groups" class="ticket-categories">
+                        <div class="acordeon-container">
+                            <button class="acordeon-header">
+                                <div class="acordeon-header-content">
+                                    <h3 class="acordeon-title">PISTA</h3>
+                                    <span class="selected-tickets" style="display: none">0 ingressos selecionados</span>
+                                </div>
+                                <div class="acordeon-arrow">
+                                    <img src="./assets/icons/arrow-down.svg" alt="Expandir">
+                                </div>
+                            </button>
+                            <div class="acordeon-content">
+                                <div class="ticket-item">
+                                    <div class="ticket-info">
+                                        <span class="ticket-title">PISTA - 1º LOTE</span>
+                                        <div class="ticket-price">
+                                            <span class="price">R$ 45,00</span>
+                                            <span class="taxes">+ taxas</span>
+                                        </div>
+                                    </div>
+                                    <div class="ticket-actions">
+                                        <button class="btn-add minus">
+                                            <img src="./assets/icons/minus.svg" alt="Diminuir quantidade">
+                                        </button>
+                                        <span class="quantity">0</span>
+                                        <button class="btn-add plus">
+                                            <img src="./assets/icons/plus.svg" alt="Aumentar quantidade">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="acordeon-container">
+                            <button class="acordeon-header">
+                                <div class="acordeon-header-content">
+                                    <h3 class="acordeon-title">PISTA DUPLO</h3>
+                                    <span class="selected-tickets" style="display: none">0 ingressos selecionados</span>
+                                </div>
+                                <div class="acordeon-arrow">
+                                    <img src="./assets/icons/arrow-down.svg" alt="Expandir">
+                                </div>
+                            </button>
+                            <div class="acordeon-content">
+                                <div class="ticket-item">
+                                    <div class="ticket-info">
+                                        <span class="ticket-title">PISTA DUPLO - 1º LOTE</span>
+                                        <div class="ticket-price">
+                                            <span class="price">R$ 40,00</span>
+                                            <span class="taxes">+ taxas</span>
+                                        </div>
+                                    </div>
+                                    <div class="ticket-actions">
+                                        <button class="btn-add minus">
+                                            <img src="./assets/icons/minus.svg" alt="Diminuir quantidade">
+                                        </button>
+                                        <span class="quantity">0</span>
+                                        <button class="btn-add plus">
+                                            <img src="./assets/icons/plus.svg" alt="Aumentar quantidade">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="acordeon-container">
+                            <button class="acordeon-header">
+                                <div class="acordeon-header-content">
+                                    <h3 class="acordeon-title">FRONTRIO FEMININO OPEN BAR</h3>
+                                    <span class="selected-tickets" style="display: none">0 ingressos selecionados</span>
+                                </div>
+                                <div class="acordeon-arrow">
+                                    <img src="./assets/icons/arrow-down.svg" alt="Expandir">
+                                </div>
+                            </button>
+                            <div class="acordeon-content">
+                                <div class="ticket-item">
+                                    <div class="ticket-info">
+                                        <span class="ticket-title">FRONTSTAGE FEMININO - 1º LOTE</span>
+                                        <div class="ticket-price">
+                                            <span class="price">R$ 70,00</span>
+                                            <span class="taxes">+ taxas</span>
+                                        </div>
+                                    </div>
+                                    <div class="ticket-actions">
+                                        <button class="btn-add minus">
+                                            <img src="./assets/icons/minus.svg" alt="Diminuir quantidade">
+                                        </button>
+                                        <span class="quantity">0</span>
+                                        <button class="btn-add plus">
+                                            <img src="./assets/icons/plus.svg" alt="Aumentar quantidade">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="acordeon-container">
+                            <button class="acordeon-header">
+                                <div class="acordeon-header-content">
+                                    <h3 class="acordeon-title">FRONTRIO MASCULINO OPEN BAR</h3>
+                                    <span class="selected-tickets" style="display: none">0 ingressos selecionados</span>
+                                </div>
+                                <div class="acordeon-arrow">
+                                    <img src="./assets/icons/arrow-down.svg" alt="Expandir">
+                                </div>
+                            </button>
+                            <div class="acordeon-content">
+                                <div class="ticket-item">
+                                    <div class="ticket-info">
+                                        <span class="ticket-title">FRONTSTAGE MASCULINO - 1º LOTE</span>
+                                        <div class="ticket-price">
+                                            <span class="price">R$ 100,00</span>
+                                            <span class="taxes">+ taxas</span>
+                                        </div>
+                                    </div>
+                                    <div class="ticket-actions">
+                                        <button class="btn-add minus">
+                                            <img src="./assets/icons/minus.svg" alt="Diminuir quantidade">
+                                        </button>
+                                        <span class="quantity">0</span>
+                                        <button class="btn-add plus">
+                                            <img src="./assets/icons/plus.svg" alt="Aumentar quantidade">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="acordeon-container">
+                            <button class="acordeon-header">
+                                <div class="acordeon-header-content">
+                                    <h3 class="acordeon-title">BLOCO FEMININO CARNALOTUS</h3>
+                                    <span class="selected-tickets" style="display: none">0 ingressos selecionados</span>
+                                </div>
+                                <div class="acordeon-arrow">
+                                    <img src="./assets/icons/arrow-down.svg" alt="Expandir">
+                                </div>
+                            </button>
+                            <div class="acordeon-content">
+                                <div class="ticket-item">
+                                    <div class="ticket-info">
+                                        <span class="ticket-title">BLOCO FEMININO - 1º LOTE</span>
+                                        <div class="ticket-price">
+                                            <span class="price">R$ 150,00</span>
+                                            <span class="taxes">+ taxas</span>
+                                        </div>
+                                    </div>
+                                    <div class="ticket-actions">
+                                        <button class="btn-add minus">
+                                            <img src="./assets/icons/minus.svg" alt="Diminuir quantidade">
+                                        </button>
+                                        <span class="quantity">0</span>
+                                        <button class="btn-add plus">
+                                            <img src="./assets/icons/plus.svg" alt="Aumentar quantidade">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="acordeon-container">
+                            <button class="acordeon-header">
+                                <div class="acordeon-header-content">
+                                    <h3 class="acordeon-title">BLOCO MASCULINO CARNALOTUS</h3>
+                                    <span class="selected-tickets" style="display: none">0 ingressos selecionados</span>
+                                </div>
+                                <div class="acordeon-arrow">
+                                    <img src="./assets/icons/arrow-down.svg" alt="Expandir">
+                                </div>
+                            </button>
+                            <div class="acordeon-content">
+                                <div class="ticket-item">
+                                    <div class="ticket-info">
+                                        <span class="ticket-title">BLOCO MASCULINO - 1º LOTE</span>
+                                        <div class="ticket-price">
+                                            <span class="price">R$ 210,00</span>
+                                            <span class="taxes">+ taxas</span>
+                                        </div>
+                                    </div>
+                                    <div class="ticket-actions">
+                                        <button class="btn-add minus">
+                                            <img src="./assets/icons/minus.svg" alt="Diminuir quantidade">
+                                        </button>
+                                        <span class="quantity">0</span>
+                                        <button class="btn-add plus">
+                                            <img src="./assets/icons/plus.svg" alt="Aumentar quantidade">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="acordeon-container">
+                            <button class="acordeon-header">
+                                <div class="acordeon-header-content">
+                                    <h3 class="acordeon-title">BLOCO TRIO FEMININO CARNALOTUS</h3>
+                                    <span class="selected-tickets" style="display: none">0 ingressos selecionados</span>
+                                </div>
+                                <div class="acordeon-arrow">
+                                    <img src="./assets/icons/arrow-down.svg" alt="Expandir">
+                                </div>
+                            </button>
+                            <div class="acordeon-content">
+                                <div class="ticket-item">
+                                    <div class="ticket-info">
+                                        <span class="ticket-title">BLOCO TRIO FEMININO - 1º LOTE</span>
+                                        <div class="ticket-price">
+                                            <span class="price">R$ 260,00</span>
+                                            <span class="taxes">+ taxas</span>
+                                        </div>
+                                    </div>
+                                    <div class="ticket-actions">
+                                        <button class="btn-add minus">
+                                            <img src="./assets/icons/minus.svg" alt="Diminuir quantidade">
+                                        </button>
+                                        <span class="quantity">0</span>
+                                        <button class="btn-add plus">
+                                            <img src="./assets/icons/plus.svg" alt="Aumentar quantidade">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="acordeon-container">
+                            <button class="acordeon-header">
+                                <div class="acordeon-header-content">
+                                    <h3 class="acordeon-title">BLOCO TRIO MASCULINO CARNALOTUS</h3>
+                                    <span class="selected-tickets" style="display: none">0 ingressos selecionados</span>
+                                </div>
+                                <div class="acordeon-arrow">
+                                    <img src="./assets/icons/arrow-down.svg" alt="Expandir">
+                                </div>
+                            </button>
+                            <div class="acordeon-content">
+                                <div class="ticket-item">
+                                    <div class="ticket-info">
+                                        <span class="ticket-title">BLOCO TRIO MASCULINO - 1º LOTE</span>
+                                        <div class="ticket-price">
+                                            <span class="price">R$ 360,00</span>
+                                            <span class="taxes">+ taxas</span>
+                                        </div>
+                                    </div>
+                                    <div class="ticket-actions">
+                                        <button class="btn-add minus">
+                                            <img src="./assets/icons/minus.svg" alt="Diminuir quantidade">
+                                        </button>
+                                        <span class="quantity">0</span>
+                                        <button class="btn-add plus">
+                                            <img src="./assets/icons/plus.svg" alt="Aumentar quantidade">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="purchase-summary">
+                    <div class="summary-header">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.25 3.75H3.75C3.41848 3.75 3.10054 3.8817 2.86612 4.11612C2.6317 4.35054 2.5 4.66848 2.5 5V15C2.5 15.3315 2.6317 15.6495 2.86612 15.8839C3.10054 16.1183 3.41848 16.25 3.75 16.25H16.25C16.5815 16.25 16.8995 16.1183 17.1339 15.8839C17.3683 15.6495 17.5 15.3315 17.5 15V5C17.5 4.66848 17.3683 4.35054 17.1339 4.11612C16.8995 3.8817 16.5815 3.75 16.25 3.75ZM3.75 15V5H16.25V15H3.75Z" fill="currentColor"/>
+                            <path d="M15 7.5H5V8.75H15V7.5ZM15 10H5V11.25H15V10ZM11.25 12.5H5V13.75H11.25V12.5Z" fill="currentColor"/>
+                        </svg>
+                        <h3>Detalhes da compra</h3>
+                    </div>
+                    <div class="summary-content">
+                        <div class="summary-items">
+                            <!-- Items serão adicionados dinamicamente via JavaScript -->
+                        </div>
+                    </div>
+                    <div class="summary-footer">
+                        <div class="summary-subtotal">
+                            <div class="subtotal-row">
+                                <span>Ingressos </span>
+                                <span class="tickets-count"> 0</span>
+                            </div>
+                            <div class="subtotal-row">
+                                <span>Subtotal</span>
+                                <span class="total-value"> R$ 0,00</span>
+                            </div>
+                        </div>
+                        <button class="btn-proceed">Prosseguir</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/accordion.js"></script>
+</body>
+</html>
